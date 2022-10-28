@@ -15,8 +15,10 @@ namespace Realyst_UploadBulkPrroducts
             {
                 GetAppSettingsFile();
                 var totalCommondata = new List<AddProductModel>();
+
                 Console.WriteLine("Please enter the full path of the excel worksheet you would like to store in a database.");
                 string excelFile = Console.ReadLine();
+
                 var data = File.ReadAllLines(excelFile);
                 for (int i = 1; i < data.Length; i++)
                 {
