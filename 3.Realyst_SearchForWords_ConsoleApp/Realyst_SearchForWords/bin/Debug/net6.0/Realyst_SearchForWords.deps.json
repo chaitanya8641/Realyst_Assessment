@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Realyst_SearchForWords/1.0.0": {
+        "runtime": {
+          "Realyst_SearchForWords.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Realyst_SearchForWords/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

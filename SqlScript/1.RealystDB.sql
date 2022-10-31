@@ -1,0 +1,4 @@
+IF DB_ID('SqlHintsDB') IS NULL
+BEGIN
+    CREATE DATABASE RealystDB
+END

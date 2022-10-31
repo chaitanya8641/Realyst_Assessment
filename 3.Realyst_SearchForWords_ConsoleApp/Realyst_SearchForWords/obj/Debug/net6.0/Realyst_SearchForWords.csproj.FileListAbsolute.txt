@@ -1,0 +1,15 @@
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\bin\Debug\net6.0\Realyst_SearchForWords.exe
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\bin\Debug\net6.0\Realyst_SearchForWords.deps.json
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\bin\Debug\net6.0\Realyst_SearchForWords.runtimeconfig.json
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\bin\Debug\net6.0\Realyst_SearchForWords.dll
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\bin\Debug\net6.0\Realyst_SearchForWords.pdb
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.csproj.AssemblyReference.cache
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.AssemblyInfoInputs.cache
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.AssemblyInfo.cs
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.csproj.CoreCompileInputs.cache
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.dll
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\refint\Realyst_SearchForWords.dll
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.pdb
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\Realyst_SearchForWords.genruntimeconfig.cache
+C:\Skills\Assessments\Realyst_SearchForWords\Realyst_SearchForWords\obj\Debug\net6.0\ref\Realyst_SearchForWords.dll
