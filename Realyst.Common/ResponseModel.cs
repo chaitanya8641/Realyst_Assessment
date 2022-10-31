@@ -9,6 +9,6 @@ namespace Realyst.Common
         [JsonProperty(PropertyName = "message")]
         public string? Message { get; set; }
         [JsonProperty(PropertyName = "result")]
-        public string? Result { get; set; }
+        public string? Data { get; set; }
     }
 }

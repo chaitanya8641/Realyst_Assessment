@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realyst.WebAPI", "Realyst.WebAPI\Realyst.WebAPI.csproj", "{C9E2012E-48E0-41EF-9337-90601BB2F2AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.WebAPI", "Realyst.WebAPI\Realyst.WebAPI.csproj", "{C9E2012E-48E0-41EF-9337-90601BB2F2AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realyst.Core", "Realyst.Core\Realyst.Core.csproj", "{A744F8F5-D632-4885-9DE9-FEB67A9BADD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.Core", "Realyst.Core\Realyst.Core.csproj", "{A744F8F5-D632-4885-9DE9-FEB67A9BADD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realyst.Application", "Realyst.Application\Realyst.Application.csproj", "{DEF4711A-2447-4FF2-935C-CD2BB54C633E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.Application", "Realyst.Application\Realyst.Application.csproj", "{DEF4711A-2447-4FF2-935C-CD2BB54C633E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realyst.Infrastructure", "Realyst.Infrastructure\Realyst.Infrastructure.csproj", "{37D000F8-232A-416A-8BFB-89B5F31968E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.Infrastructure", "Realyst.Infrastructure\Realyst.Infrastructure.csproj", "{37D000F8-232A-416A-8BFB-89B5F31968E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realyst.Dapper", "Realyst.Dapper\Realyst.Dapper.csproj", "{F88CCC02-1FB1-4F02-B6B8-A4FA60228A61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.Dapper", "Realyst.Dapper\Realyst.Dapper.csproj", "{F88CCC02-1FB1-4F02-B6B8-A4FA60228A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realyst.Common", "Realyst.Common\Realyst.Common.csproj", "{34E9FD60-0385-4609-A8CF-42FC2665E10E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.Common", "Realyst.Common\Realyst.Common.csproj", "{34E9FD60-0385-4609-A8CF-42FC2665E10E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Realyst.Web", "Realyst.Web\Realyst.Web.csproj", "{B86FD1C0-BF8E-4ED6-B153-13E83ABA4CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{34E9FD60-0385-4609-A8CF-42FC2665E10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E9FD60-0385-4609-A8CF-42FC2665E10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E9FD60-0385-4609-A8CF-42FC2665E10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86FD1C0-BF8E-4ED6-B153-13E83ABA4CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86FD1C0-BF8E-4ED6-B153-13E83ABA4CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86FD1C0-BF8E-4ED6-B153-13E83ABA4CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86FD1C0-BF8E-4ED6-B153-13E83ABA4CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,10 +17,15 @@ namespace Realyst.WebAPI.Controllers
 
 
         [HttpPost("[action]")]
-        public async Task<ActionResult<ResponseModel>> GetProductCommentsList([FromBody] ProductCommentsByProductId model)
+        public async Task<ActionResult<DataTableResponse>> GetProductCommentsList([FromBody] ProductCommentsByProductId model)
         {
-            IList<ProductCommentModel> result = await _productCommentService.GetProductCommentsListByProductId(model);
-            return ResponseUtility.CreateResponse(result);
+            IList<GetProductCommentList> result = await _productCommentService.GetProductCommentsListByProductId(model);
+            return new DataTableResponse
+            {
+                RecordsTotal = result.Count,
+                RecordsFiltered = 10,
+                Data = result.ToArray()
+            };
         }
 
 

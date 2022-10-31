@@ -39,6 +39,12 @@ namespace Realyst.WebAPI
 
             app.UseRouting();
 
+            app.UseCors(x => x
+                .SetIsOriginAllowed(origin => true)
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());
+
             app.UseAuthorization();
             app.UseSwagger();
             app.UseSwaggerUI(c =>

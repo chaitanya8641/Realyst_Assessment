@@ -28,13 +28,13 @@ namespace Realyst.Infrastructure.Services
             }
         }
 
-        public async Task<IList<ProductCommentModel>> GetProductCommentsListByProductId(ProductCommentsByProductId model)
+        public async Task<IList<GetProductCommentList>> GetProductCommentsListByProductId(ProductCommentsByProductId model)
         {
             try
             {
                 _dbconnection.StoredProcedure = ContantStoredProcedure.GetCommentsByProductIdStoredProcedure;
                 _dbconnection.Parameters = model;
-                return await _dapperRepository.QueryList<ProductCommentModel>(_dbconnection);
+                return await _dapperRepository.QueryList<GetProductCommentList>(_dbconnection);
             }
             catch (Exception ex)
             {

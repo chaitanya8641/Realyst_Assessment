@@ -16,11 +16,19 @@ namespace Realyst.WebAPI.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task<ActionResult<ResponseModel>> GetProductsList()
+        public async Task<ActionResult<DataTableResponse>> GetProductsList()
         {
             IList<ProductModel> result = await _productService.GetProductsList();
-            return ResponseUtility.CreateResponse(result);
+
+            return new DataTableResponse
+            {
+                RecordsTotal = result.Count,
+                RecordsFiltered = 10,
+                Data = result.ToArray()
+            };
         }
+
+
         [HttpPost("[action]")]
         public async Task<ActionResult<ResponseModel>> GetProductByProductId([FromBody] ProductByIdModel model)
         {

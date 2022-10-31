@@ -118,9 +118,10 @@ CREATE PROCEDURE [dbo].[spGetCommentsByProductId]
 @ProductId INT
 AS  
 BEGIN  
-	SELECT  [ProductCommentId],[ProductComment],[Email],[DateOfComment],[ProductId]
-	FROM [dbo].[ProductComment]
-	WHERE [ProductId] = @ProductId
+	SELECT  pc.[ProductCommentId],pc.[ProductComment],pc.[Email],pc.[DateOfComment],p.[ProductName]
+	FROM [dbo].[ProductComment] pc
+	INNER JOIN [dbo].[Product] p ON p.[ProductId] = pc.[ProductId]
+	WHERE pc.[ProductId] = @ProductId
 END 
 GO
 

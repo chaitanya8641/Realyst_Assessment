@@ -14,7 +14,7 @@ namespace Realyst.Common
             {
                 Success = isSuccessful,
                 Message = isSuccessful ? Success : UnSuccessful,
-                Result = !EqualityComparer<T>.Default.Equals(response, default(T)) ? JsonConvert.SerializeObject(response) : null
+                Data = !EqualityComparer<T>.Default.Equals(response, default(T)) ? JsonConvert.SerializeObject(response) : null
             };
         }
     }
